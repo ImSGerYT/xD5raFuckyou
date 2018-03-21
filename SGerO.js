@@ -1187,4 +1187,4 @@ client.on('gulidmemberadd', member => {
   });
   
 
-client.login('MzgxNzczNTQxMTM5MjgzOTg4.DTVw0g.fjBDFsH4Dg1740V9-3GRXSulKyQ');
+client.login(process.env.BOT_TOKEN);
