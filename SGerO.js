@@ -5,12 +5,6 @@ client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
 
-client.on('message', msg => {
-    if (msg.content === 'onlinebot?') {
-      msg.reply('Yes !');
-    }
-  });
-
 client.on('ready',  () => {
   console.log('By : ÷ةٍلأثق  ');
   console.log(`Logged in as * [ " ${client.user.username} " ] servers! [ " ${client.guilds.size} " ]`);
