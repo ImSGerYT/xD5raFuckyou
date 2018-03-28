@@ -2,7 +2,7 @@
   "name": "Test",
   "description": "Test",
   "version": "0.0.0",
-  "main": "SGerO.js",
+  "main": "main.js",
   "scripts": {
     "start": "node SGerO.js"
      
