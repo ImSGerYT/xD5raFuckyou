@@ -5,16 +5,11 @@ client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
 
-client.on('message', msg => {
-    if (msg.content === 'onlinebot?') {
-      msg.reply('Yes !');
-    }
-  });
+
 
 client.on('ready', () => {
    client.user.setGame(" ^help | ^invite ");
-   client.user.setStatus("DND");
-]);
+   ]);
 
 client.on('ready',  () => {
   console.log('By : ÷ةٍلأثق  ');
