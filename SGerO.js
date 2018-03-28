@@ -5,6 +5,12 @@ client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
 
+client.on('message', msg => {
+    if (msg.content === 'onlinebot?') {
+      msg.reply('Yes !');
+    }
+  });
+
 client.on('ready',  () => {
   console.log('By : ÷ةٍلأثق  ');
   console.log(`Logged in as * [ " ${client.user.username} " ] servers! [ " ${client.guilds.size} " ]`);
@@ -837,7 +843,7 @@ client.on('message', message => {
 
 client.on('message', message => {
   if (true) {
-if (message.content === '^^invite') {
+if (message.content === '^invite') {
       message.author.send(' رابط البوت |  https://discordapp.com/oauth2/authorize?client_id=381773541139283988&scope=bot&permissions=2146958591 ').catch(e => console.log(e.stack));
 
     }
