@@ -5,6 +5,9 @@
   "main": "SGerO.js",
   "scripts": {
     "start": "node SGerO.js"
+    "start": "node eris.js"
+    "start": "node erisp.js"
+    "start": "node music.js"
   },
   "dependencies": {
     "discord.js": "11.1.0",
