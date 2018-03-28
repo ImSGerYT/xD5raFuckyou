@@ -11,6 +11,11 @@ client.on('message', msg => {
     }
   });
 
+client.on('ready', () => {
+   client.user.setGame(" ^help | ^invite ");
+   client.user.setStatus("DND");
+]);
+
 client.on('ready',  () => {
   console.log('By : ÷ةٍلأثق  ');
   console.log(`Logged in as * [ " ${client.user.username} " ] servers! [ " ${client.guilds.size} " ]`);
@@ -712,7 +717,7 @@ client.on('message', message => {
 
     client.on('message', message => {
               if (!message.channel.guild) return;
-      if(message.content =='^members')
+      if(message.content =='^mb')
       var IzRo = new Discord.RichEmbed()
       .setThumbnail(message.author.avatarURL)
       .setFooter(message.author.username, message.author.avatarURL) 
@@ -775,10 +780,8 @@ client.on("guildCreate", guild => {
 
   
   
-client.on('ready', () => {
-   client.user.setGame(" ^help | ^invite ");
-   client.user.setStatus("DND");
-}); 
+
+
 
 client.on("message", message => {
     var prefix = "^";
