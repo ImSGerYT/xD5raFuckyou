@@ -1,7 +1,7 @@
 {
-  "name": "Test",
-  "description": "Test",
-  "version": "0.0.0",
+  "name": "sgeroishere",
+  "description": "Bot Bot Bot",
+  "version": "5.3.1",
   "main": "SGerO.js",
   "scripts": {
     "start": "node SGerO.js"
