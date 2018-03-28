@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "main": "SGerO.js",
   "scripts": {
-    "start": "node SGerO.js, node eris.js, node erisp.js, node music.js, node bank.js"
+    "start": "node SGerO.js"
      
  
      
