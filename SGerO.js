@@ -80,7 +80,7 @@ message.author.sendEmbed(embed)
 }); 
 
 
-//By: marwan
+//By: SGer
 
 
 const ms = require("ms");
